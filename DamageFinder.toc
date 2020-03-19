@@ -1,0 +1,5 @@
+## Interface: 80300
+## Title: DamageFinder
+## Version: 0.0.1
+## Author: Eckter
+DamageFinder.lua
