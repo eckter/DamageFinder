@@ -170,7 +170,7 @@ function f:onUpdate(elapsed)
 	txt = ""
 	for _, src in ipairs(getKeysSortedByValue(damageTable)) do
 		dmg = damageTable[src]
-		txt = txt .. src .. ": " .. math.floor(100 * dmg / totalDamage) .. "%\n"
+		txt = txt .. src .. ": " .. math.floor(dmg / 1000) .. "k, " .. math.floor(100 * dmg / totalDamage) .. "%\n"
 	end
 	f.text:SetText(txt)
 
@@ -178,3 +178,12 @@ function f:onUpdate(elapsed)
   end
 end
 f:SetScript("OnUpdate", f.onUpdate)
+
+
+
+
+
+SLASH_DAMAGEFINDER1 = "/damagefinder"
+SlashCmdList["DAMAGEFINDER"] = function(msg)
+    f:Show()
+end
