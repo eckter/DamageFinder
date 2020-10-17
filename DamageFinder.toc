@@ -1,4 +1,4 @@
-## Interface: 80300
+## Interface: 90001
 ## Title: DamageFinder
 ## Version: 0.0.1
 ## Author: Eckter

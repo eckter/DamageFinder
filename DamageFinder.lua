@@ -1,4 +1,4 @@
-﻿local f = CreateFrame("Frame", "DamageFinderFrame", UIParent)
+﻿local f = CreateFrame("Frame", "DamageFinderFrame", UIParent, "BackdropTemplate")
 f:SetSize(200, 100)
 f:SetPoint("CENTER")
 
