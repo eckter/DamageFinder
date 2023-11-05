@@ -1,4 +1,4 @@
-## Interface: 90001
+## Interface: 100200
 ## Title: DamageFinder
 ## Version: 0.0.1
 ## Author: Eckter
